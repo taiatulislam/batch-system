@@ -3,6 +3,7 @@ import Banner from "@/components/Banner/Banner";
 import Features from "@/components/Features/Features";
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
+import Testimonial from "@/components/Testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Banner></Banner>
       <Features></Features>
       <Advantage></Advantage>
+      <Testimonial></Testimonial>
       <Footer></Footer>
     </div>
   );
