@@ -1,3 +1,4 @@
+import Advantage from "@/components/Advantage/Advantage";
 import Banner from "@/components/Banner/Banner";
 import Features from "@/components/Features/Features";
 import Footer from "@/components/Footer/Footer";
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar></Navbar>
       <Banner></Banner>
       <Features></Features>
+      <Advantage></Advantage>
       <Footer></Footer>
     </div>
   );

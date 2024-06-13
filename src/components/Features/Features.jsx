@@ -12,9 +12,9 @@ const Features = () => {
           height={500}
           className=" rotate-[14deg]"
         />
-        <div className="h-[450px] w-[300px] rounded-full border border-black -rotate-45 absolute top-16 left-10 -z-10"></div>
-        <div className="h-[450px] w-[300px] rounded-full border border-black -rotate-45 absolute top-9 left-20 -z-10"></div>
-        <div className="h-[450px] w-[300px] rounded-full border border-black -rotate-45 absolute top-2 left-[120px] -z-10"></div>
+        <div className="h-[450px] w-[300px] rounded-full border border-black -rotate-45 absolute top-16 left-[40px] -z-10"></div>
+        <div className="h-[450px] w-[300px] rounded-full border border-black -rotate-45 absolute top-9 left-[70px] -z-10"></div>
+        <div className="h-[450px] w-[300px] rounded-full border border-black -rotate-45 absolute top-2 left-[100px] -z-10"></div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="46"

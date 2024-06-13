@@ -80,9 +80,6 @@ const Banner = () => {
         <div className="w-1/2 relative -mt-10">
           <div>
             <Image src={iphone1} alt="alt" width={500} height={500} />
-            <div className="h-[550px] w-[400px] rounded-full border-r-2 border-black -rotate-45 absolute top-10 left-20 -z-20"></div>
-          </div>
-          <div>
             <Image
               src={iphone2}
               alt="alt"
@@ -90,9 +87,6 @@ const Banner = () => {
               height={500}
               className="absolute top-20 left-24 -z-10"
             />
-            <div className="h-[550px] w-[400px] rounded-full border-r-2 border-black -rotate-45 absolute top-5 left-32 -z-20"></div>
-          </div>
-          <div>
             <Image
               src={iphone1}
               alt="alt"
@@ -100,7 +94,10 @@ const Banner = () => {
               height={500}
               className="absolute top-40 left-48 -z-20"
             />
-            <div className="h-[550px] w-[400px] rounded-full border-r-2 border-black -rotate-45 absolute top-0 left-40 -z-20"></div>
+
+            <div className="h-[450px] w-[300px] rounded-full border border-black -rotate-45 absolute top-16 left-[140px] -z-30"></div>
+            <div className="h-[450px] w-[300px] rounded-full border border-black -rotate-45 absolute top-12 left-[170px] -z-30"></div>
+            <div className="h-[450px] w-[300px] rounded-full border border-black -rotate-45 absolute top-8 left-[200px] -z-30"></div>
           </div>
         </div>
       </div>
