@@ -1,6 +1,6 @@
 const FAQ = () => {
   return (
-    <div>
+    <div className="mt-[250px]">
       <div className="flex items-end gap-5 mb-10">
         <div className="w-1/2">
           <h3 className="uppercase text-[#FF5555] font-medium text-lg">faq</h3>

@@ -59,7 +59,9 @@ const Navbar = () => {
               <li
                 key={index}
                 className={
-                  `${navItem}` === "Home" && "font-semibold text-[#F55]"
+                  `${navItem}` === "Home"
+                    ? "font-semibold text-[#F55] cursor-pointer"
+                    : "cursor-pointer"
                 }
               >
                 {navItem}

@@ -1,4 +1,5 @@
 import Advantage from "@/components/Advantage/Advantage";
+import Advertisement from "@/components/Advertisement/Advertisement";
 import Banner from "@/components/Banner/Banner";
 import FAQ from "@/components/FAQ/FAQ";
 import Features from "@/components/Features/Features";
@@ -15,6 +16,7 @@ export default function Home() {
       <Advantage></Advantage>
       <Testimonial></Testimonial>
       <FAQ></FAQ>
+      <Advertisement></Advertisement>
       <Footer></Footer>
     </div>
   );
